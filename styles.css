@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(172, 170, 157, 0.849);
+}
+
+.title{
+    font-size: 3em;
+    color: rgb(88, 7, 7);
+}
+
+.title2{
+    font-family: cursive;
+    font-size: 3em;
+    color: rgb(30, 71, 255);
+}
+
+.title3{
+    font-size: 5;
+}
+
+.title4{
+    text-align: justify;
+    padding: 2em 1px 2em 1px;
+}
+
+
+
+.logo{
+    width: 350px;
+    height: 300px;
+}
+
+.card{
+    background-color: rgb(93, 93, 102);
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1px 1em 2em 1em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+
+.cuadro2{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1px 1em 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: 1s;
+
+}
+
+.cuadro2:hover{
+    background-color: dimgrey;
+}
+
+
+#principal{
+    font-size: 4,5em;
+    color: rgb(255, 0, 0);
+}
+
+#secundario{
+    font-size: 4,5em;
+    color: black;
+    padding: 3em 1em 1em 1em;
+    letter-spacing: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo{
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#card-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+    margin-top:  1,5em;
+    border-radius: 5%;
+    padding: 2em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#cuadro1{
+    width: 90%;
+    margin: auto;
+    margin-top:  1,5em;
+    border-radius: 5%;
+    padding: 2em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+
